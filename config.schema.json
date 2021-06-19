@@ -1,0 +1,27 @@
+{
+  "pluginAlias": "rpi-thermostat",
+  "pluginType": "accessory",
+  "singular": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "name",
+        "type": "string",
+        "required": true,
+        "default": "rpi-thermostat0"
+      },
+      "thermostat_api": {
+        "title": "name",
+        "type": "string",
+        "required": true,
+        "default": "http://localhost:5000/api"
+      },
+      "api_key": {
+        "title": "api key",
+        "type": "string",
+        "required": true
+      }
+    }
+  }
+}

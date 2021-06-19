@@ -1,0 +1,2 @@
+# homebridge-rpi-thermostat
+an accessory plugin for homebridge to interface with [rpi-thermostat](https://github.com/danny8208/rpi-thermostat) that uses axios to perform GET and POST requests to the endpoint specified in the accessory's config
